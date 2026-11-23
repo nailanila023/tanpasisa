@@ -73,3 +73,4 @@ Lihat `ADMIN_SETUP.md` untuk panduan aktivasi Supabase, undangan enam Admin, dep
 Daftar email lengkap ada di `ADMIN_INVITATIONS.md`, CSV roster ada di `supabase/admin-roster-template.csv`, dan query penetapan role ada di `supabase/admins.sql`. Undangan harus dikirim dari Supabase Authentication oleh pemilik project.
 
 Website TANPASISA
+Website TANPASISA - Update GitHub
