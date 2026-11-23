@@ -74,3 +74,4 @@ Daftar email lengkap ada di `ADMIN_INVITATIONS.md`, CSV roster ada di `supabase/
 
 Website TANPASISA
 Website TANPASISA - Update GitHub
+Update deployment TANPASISA dari GitHub.
