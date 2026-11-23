@@ -72,6 +72,26 @@ Lihat `ADMIN_SETUP.md` untuk panduan aktivasi Supabase, undangan enam Admin, dep
 ## Daftar enam Admin
 Daftar email lengkap ada di `ADMIN_INVITATIONS.md`, CSV roster ada di `supabase/admin-roster-template.csv`, dan query penetapan role ada di `supabase/admins.sql`. Undangan harus dikirim dari Supabase Authentication oleh pemilik project.
 
-Website TANPASISA
-Website TANPASISA - Update GitHub
-Update deployment TANPASISA dari GitHub.
+
+## Perbaikan autentikasi, sinkronisasi role, dan lupa password
+Paket ini menambahkan:
+- Trigger database `on_tanpasisa_auth_user_created` untuk membuat role `seller`/`customer` dan profil secara otomatis ketika akun dibuat di Supabase Auth. Trigger tetap berjalan ketika konfirmasi email aktif dan belum ada session.
+- Backfill role/profil untuk akun lama yang metadata pendaftarannya berisi role `seller` atau `customer`.
+- Fitur Lupa Password menggunakan Supabase `resetPasswordForEmail()` dan `updateUser()`.
+- Pendaftaran publik tidak dapat membuat role Admin.
+- Validasi role saat login dan pesan kesalahan yang lebih jelas.
+
+### WAJIB setelah mengganti file website
+1. Di Supabase project yang sama, buka SQL Editor > New Query.
+2. Jalankan seluruh file `supabase/auth_profile_role_migration.sql` satu kali.
+3. Pastikan hasil query verifikasi menampilkan email akun dan role yang sesuai.
+4. Di Authentication > URL Configuration, pastikan Site URL adalah domain website produksi dan Redirect URLs mengizinkan domain tersebut (misalnya `https://domain-kamu.vercel.app/**`).
+5. Deploy ulang seluruh isi folder `tanpasisa-website` ke hosting.
+6. Uji daftar baru customer dan seller, konfirmasi email, login, lalu uji Lupa Password.
+
+Catatan:
+- Jangan menjalankan file `admins.sql` untuk memberi role ke pelanggan/seller.
+- Migration ini tidak mengubah role Admin yang sudah ada. Trigger tidak menimpa baris role yang sudah tercatat.
+- Akun yang dibuat sebelum migration hanya dapat di-backfill otomatis bila metadata `role` di Auth berisi `seller` atau `customer`. Periksa hasil SELECT di SQL Editor; akun tanpa role harus diperbaiki setelah identitasnya diverifikasi.
+- Password tidak disimpan di tabel profil; password hanya dikelola Supabase Authentication.
+- File ZIP saja tidak mengubah website yang sudah online. Migration dan deployment tetap harus dilakukan pada project milik pengguna.

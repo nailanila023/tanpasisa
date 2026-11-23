@@ -139,6 +139,16 @@
     <label class="field">Password<input id="authPassword" type="password" required minlength="4" placeholder="Minimal 4 karakter"></label>
     <label class="remember-row" id="rememberRow"><input type="checkbox" id="rememberMe" checked> <span>Ingat saya di perangkat ini</span></label>
     <button class="btn full" id="authSubmit">Masuk</button>
+    <button type="button" class="auth-mode" id="forgotPasswordBtn" onclick="sendPasswordReset()" style="width:100%;margin-top:10px">Lupa Password?</button>
+    <div id="passwordResetPanel" style="display:none;margin-top:16px;padding:16px;border:1px solid #d8e5d8;border-radius:12px">
+      <h3>Buat Password Baru</h3>
+      <p class="muted">Masukkan password baru minimal 8 karakter.</p>
+      <form id="newPasswordForm" onsubmit="submitNewPassword(event)">
+        <label class="field">Password baru<input id="newPassword" type="password" minlength="8" required autocomplete="new-password"></label>
+        <label class="field">Ulangi password baru<input id="confirmNewPassword" type="password" minlength="8" required autocomplete="new-password"></label>
+        <button class="btn full" type="submit">Simpan Password Baru</button>
+      </form>
+    </div>
    </form>
    <div class="auth-switches"><button type="button" id="loginModeBtn" class="auth-mode active" onclick="setAuthMode('login')">Masuk</button><button type="button" id="registerModeBtn" class="auth-mode" onclick="setAuthMode('register')">Daftar</button></div>
    <div class="switchline"><span id="switchText">Belum punya akun?</span> <button type="button" onclick="toggleAuthMode()" id="switchBtn">Daftar sekarang</button></div>
@@ -313,6 +323,7 @@ function openAuth(mode='login'){closeAccountMenu();setAuthMode(mode);go('auth')}
 function setAuthMode(mode){
  authMode=mode==='register'?'register':'login';
  const registering=authMode==='register';
+ const forgotBtn=document.getElementById('forgotPasswordBtn');if(forgotBtn)forgotBtn.style.display=registering?'none':'block';
  document.getElementById('authTitle').textContent=registering?'Buat Akun TANPASISA':'Masuk ke TANPASISA';
  document.getElementById('nameField').style.display=registering?'block':'none';
  document.getElementById('authName').required=registering;
@@ -336,19 +347,34 @@ async function handleAuth(e){
  if(!cloudReady()){toast('Supabase belum terhubung. Login dan pendaftaran online belum tersedia.');return}
  try{
   if(authMode==='register'){
-   if(!name){toast('Nama lengkap wajib diisi.');return}
-   const {data,error}=await tsSupabaseClient.auth.signUp({email,password,options:{data:{full_name:name,role:currentRole}}});
+   if(currentRole==='admin')throw new Error('Pendaftaran Admin tidak tersedia untuk publik. Admin harus dibuat oleh pemilik project.');
+   if(!name)throw new Error('Nama lengkap wajib diisi.');
+   if(password.length<8)throw new Error('Password minimal 8 karakter.');
+   const {data,error}=await tsSupabaseClient.auth.signUp({
+    email,password,
+    options:{data:{full_name:name,role:currentRole},emailRedirectTo:window.location.origin+'/#auth'}
+   });
    if(error)throw error;
-   if(!data.session||!data.user){toast('Pendaftaran berhasil. Periksa email untuk verifikasi akun, lalu login.');return}
-   const roleWrite=await tsSupabaseClient.from('user_roles').upsert({user_id:data.user.id,role:currentRole});
-   if(roleWrite.error)throw roleWrite.error;
-   currentUser={id:data.user.id,name,email,role:currentRole};
+   if(!data.user)throw new Error('Pendaftaran belum berhasil. Silakan coba kembali.');
+   // Role/profile dibuat oleh database trigger saat auth.users dibuat.
+   // Jangan mengandalkan data.session karena email confirmation dapat menunda session.
+   const {data:roleRow,error:roleError}=await tsSupabaseClient.from('user_roles').select('role').eq('user_id',data.user.id).maybeSingle();
+   if(roleError)console.warn('Role akan disinkronkan oleh trigger database:',roleError.message);
+   if(!data.session){
+    toast('Pendaftaran berhasil. Periksa email untuk verifikasi. Setelah verifikasi, silakan login.');
+    setAuthMode('login');
+    return;
+   }
+   if(!roleRow?.role)throw new Error('Akun dibuat, tetapi role belum tersinkron. Minta Admin menjalankan migration Supabase TANPASISA.');
+   if(roleRow.role!==currentRole)throw new Error('Jenis akun tidak sesuai dengan role yang tersimpan.');
+   currentUser={id:data.user.id,name,email,role:roleRow.role};
   }else{
    const {data,error}=await tsSupabaseClient.auth.signInWithPassword({email,password});
    if(error)throw error;
    const {data:roleRow,error:roleError}=await tsSupabaseClient.from('user_roles').select('role').eq('user_id',data.user.id).maybeSingle();
    if(roleError)throw roleError;
-   if(!roleRow?.role||roleRow.role!==currentRole)throw new Error('Jenis akun tidak sesuai atau role belum diberikan Admin.');
+   if(!roleRow?.role)throw new Error('Akun berhasil diautentikasi, tetapi role belum tersedia. Admin perlu menjalankan migration Supabase TANPASISA.');
+   if(roleRow.role!==currentRole)throw new Error('Jenis akun tidak sesuai. Akun ini terdaftar sebagai '+roleRow.role+'. Pilih jenis akun yang benar.');
    currentUser={id:data.user.id,name:data.user.user_metadata?.full_name||email.split('@')[0],email,role:roleRow.role};
   }
   save();document.getElementById('authForm').reset();updateAccountMenu();
@@ -357,6 +383,46 @@ async function handleAuth(e){
   await loadCloudOrders();toast('Berhasil masuk ke TANPASISA.');
  }catch(err){toast(err.message||'Autentikasi gagal.')}
 }
+
+async function sendPasswordReset(){
+ if(!cloudReady()){toast('Supabase belum terhubung.');return}
+ const email=document.getElementById('authEmail').value.trim().toLowerCase();
+ if(!email){toast('Masukkan email terlebih dahulu.');document.getElementById('authEmail').focus();return}
+ try{
+  const {error}=await tsSupabaseClient.auth.resetPasswordForEmail(email,{redirectTo:window.location.origin+'/#auth'});
+  if(error)throw error;
+  toast('Jika email terdaftar, tautan pemulihan akan dikirim. Periksa inbox dan folder spam.');
+ }catch(err){toast('Gagal mengirim pemulihan: '+err.message)}
+}
+async function submitNewPassword(e){
+ e.preventDefault();
+ const password=document.getElementById('newPassword').value;
+ const confirm=document.getElementById('confirmNewPassword').value;
+ if(password.length<8){toast('Password minimal 8 karakter.');return}
+ if(password!==confirm){toast('Konfirmasi password tidak sama.');return}
+ try{
+  const {data,error}=await tsSupabaseClient.auth.updateUser({password});
+  if(error)throw error;
+  document.getElementById('passwordResetPanel').style.display='none';
+  document.getElementById('newPasswordForm').reset();
+  toast('Password berhasil diperbarui. Silakan login menggunakan password baru.');
+  await tsSupabaseClient.auth.signOut();
+  currentUser=null;localStorage.removeItem('ts_user');sessionStorage.removeItem('ts_user');
+  setAuthMode('login');
+ }catch(err){toast('Gagal memperbarui password: '+err.message)}
+}
+function initPasswordRecovery(){
+ if(!cloudReady())return;
+ tsSupabaseClient.auth.onAuthStateChange((event)=>{
+  if(event==='PASSWORD_RECOVERY'){
+   document.getElementById('passwordResetPanel').style.display='block';
+   document.getElementById('forgotPasswordBtn').style.display='none';
+   go('auth');
+   toast('Tautan valid. Silakan buat password baru.');
+  }
+ });
+}
+
 function logout(){
  if(cloudReady())tsSupabaseClient.auth.signOut();
  currentUser=null;localStorage.removeItem('ts_user');sessionStorage.removeItem('ts_user');localStorage.removeItem('ts_remember');
@@ -543,7 +609,7 @@ function subscribeCloudOrders(){
  .subscribe();
 }
 
-initTanpasisaCloud();if(cloudReady()){loadCloudOrders();subscribeCloudOrders()}renderCategories();renderFeatured();renderShop();updateCartCount();updateAccountMenu();resetTimer();if(cloudReady())syncProductsFromCloud();
+initTanpasisaCloud();if(cloudReady()){initPasswordRecovery();loadCloudOrders();subscribeCloudOrders()}renderCategories();renderFeatured();renderShop();updateCartCount();updateAccountMenu();resetTimer();if(cloudReady())syncProductsFromCloud();
 if(currentUser&&location.hash==='#dashboard')go('dashboard');else if(location.hash&&document.getElementById('page-'+location.hash.slice(1)))go(location.hash.slice(1));
 </script>
 </body></html>
