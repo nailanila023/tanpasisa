@@ -2,6 +2,7 @@
 
 | No. | Nama | Email | Status |
 |---:|---|---|---|
+| 1 | Admin Utama | fradibusa.23@gmail.com | Belum diundang |
 | 2 | Nila | nila.23023@mhs.unesa.ac.id | Belum diundang |
 | 3 | Alifa | alifasaa.work@gmail.com | Belum diundang |
 | 4 | Nasywa | nasywa.23227@mhs.unesa.ac.id | Belum diundang |
