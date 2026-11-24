@@ -532,6 +532,42 @@ function accountTable(){
  if(!all.length)return '<div class="empty">Belum ada akun.</div>';
  return `<div class="tablewrap"><table><thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Sumber</th></tr></thead><tbody>${all.map(u=>`<tr><td>${u.name}</td><td>${u.email}</td><td>${u.role}</td><td>${demoUsers.includes(u)?'Demo':'Terdaftar'}</td></tr>`).join('')}</tbody></table></div>`;
 }
+  
+function orderTable(list,canVerify=false){
+ if(!list.length)return '<div class="empty">Belum ada pesanan.</div>';
+
+ return `<div class="tablewrap"><table>
+ <thead><tr>
+ <th>Kode</th><th>Pelanggan</th><th>Outlet</th>
+ <th>Total</th><th>Status</th><th>Aksi</th>
+ </tr></thead><tbody>
+ ${list.map(o=>{
+ const pending=[
+ 'Menunggu verifikasi',
+ 'Menunggu verifikasi seller'
+ ].includes((o.status||'').trim());
+
+ return `<tr>
+ <td><b>${o.code}</b></td>
+ <td>${o.name}</td>
+ <td>${o.outlet}</td>
+ <td>${rupiah(o.total)}</td>
+ <td><span class="status ${pending?'pending':''}">${o.status}</span></td>
+ <td>
+ 
+ ${canVerify&&pending?`
+ <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+ <input style="width:135px;padding:10px;border:1px solid #ddd;border-radius:9px"
+ placeholder="Kode scan" id="verify-${o.code}">
+ <button class="btn small" onclick="verifyOrder('${o.code}')">Verifikasi</button>
+ <button class="btn small outline" onclick="rejectOrder('${o.code}')">Tolak</button>
+ </div>
+ `:'—'}
+ </td>
+ </tr>`;
+ }).join('')}
+ </tbody></table></div>`;
+}
 function adminCreateAccount(e){
  e.preventDefault();
  let name=document.getElementById('adminNewName').value,email=document.getElementById('adminNewEmail').value.trim().toLowerCase(),password=document.getElementById('adminNewPassword').value,role=document.getElementById('adminNewRole').value;
