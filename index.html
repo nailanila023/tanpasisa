@@ -133,24 +133,63 @@
   <div class="auth-shell">
    <h1 id="authTitle">Masuk ke TANPASISA</h1><p class="muted">Pilih jenis akun. Kamu dapat membuat banyak akun tambahan untuk setiap jenis pengguna melalui menu Daftar.</p>
    <div class="role-grid"><button class="role active" data-role="customer" onclick="selectRole('customer')">🛍 Pelanggan</button><button class="role" data-role="seller" onclick="selectRole('seller')">🏪 Seller</button><button class="role" data-role="admin" onclick="selectRole('admin')">⚙ Admin</button></div>
-   <form id="authForm" onsubmit="handleAuth(event)">
-    <label class="field" id="nameField" style="display:none">Nama lengkap<input id="authName" placeholder="Nama kamu"></label>
-    <label class="field">Email<input id="authEmail" type="email" required placeholder="email@contoh.com"></label>
-    <label class="field">Password<input id="authPassword" type="password" required minlength="4" placeholder="Minimal 4 karakter"></label>
-    <label class="remember-row" id="rememberRow"><input type="checkbox" id="rememberMe" checked> <span>Ingat saya di perangkat ini</span></label>
-    <button class="btn full" id="authSubmit">Masuk</button>
-    <button type="button" class="auth-mode" id="forgotPasswordBtn" onclick="sendPasswordReset()" style="width:100%;margin-top:10px">Lupa Password?</button>
-    <div id="passwordResetPanel" style="display:none;margin-top:16px;padding:16px;border:1px solid #d8e5d8;border-radius:12px">
-      <h3>Buat Password Baru</h3>
-      <p class="muted">Masukkan password baru minimal 8 karakter.</p>
-      <form id="newPasswordForm" onsubmit="submitNewPassword(event)">
-        <label class="field">Password baru<input id="newPassword" type="password" minlength="8" required autocomplete="new-password"></label>
-        <label class="field">Ulangi password baru<input id="confirmNewPassword" type="password" minlength="8" required autocomplete="new-password"></label>
-        <button class="btn full" type="submit">Simpan Password Baru</button>
-      </form>
-    </div>
-   </form>
-   <div class="auth-switches"><button type="button" id="loginModeBtn" class="auth-mode active" onclick="setAuthMode('login')">Masuk</button><button type="button" id="registerModeBtn" class="auth-mode" onclick="setAuthMode('register')">Daftar</button></div>
+   
+<form id="authForm" onsubmit="handleAuth(event)">
+  <label class="field" id="nameField" style="display:none">
+    Nama lengkap
+    <input id="authName" placeholder="Nama kamu">
+  </label>
+
+  <label class="field">
+    Email
+    <input id="authEmail" type="email" required placeholder="email@contoh.com">
+  </label>
+
+  <label class="field">
+    Password
+    <input id="authPassword" type="password" required minlength="4" placeholder="Minimal 4 karakter">
+  </label>
+
+  <label class="remember-row" id="rememberRow">
+    <input type="checkbox" id="rememberMe" checked>
+    <span>Ingat saya di perangkat ini</span>
+  </label>
+
+  <button type="submit" class="btn full" id="authSubmit">
+    Masuk
+  </button>
+</form>
+
+<button
+  type="button"
+  class="auth-mode"
+  id="forgotPasswordBtn"
+  onclick="sendPasswordReset()"
+  style="width:100%;margin-top:10px">
+  Lupa Password?
+</button>
+
+<div id="passwordResetPanel" style="display:none;margin-top:16px;padding:16px;border:1px solid #d8e5d8;border-radius:12px">
+  <h3>Buat Password Baru</h3>
+  <p class="muted">Masukkan password baru minimal 8 karakter.</p>
+
+  <form id="newPasswordForm" onsubmit="submitNewPassword(event)">
+    <label class="field">
+      Password baru
+      <input id="newPassword" type="password" minlength="8" required autocomplete="new-password">
+    </label>
+
+    <label class="field">
+      Ulangi password baru
+      <input id="confirmNewPassword" type="password" minlength="8" required autocomplete="new-password">
+    </label>
+
+    <button class="btn full" type="submit">
+      Simpan Password Baru
+    </button>
+  </form>
+</div>
+      <div class="auth-switches"><button type="button" id="loginModeBtn" class="auth-mode active" onclick="setAuthMode('login')">Masuk</button><button type="button" id="registerModeBtn" class="auth-mode" onclick="setAuthMode('register')">Daftar</button></div>
    <div class="switchline"><span id="switchText">Belum punya akun?</span> <button type="button" onclick="toggleAuthMode()" id="switchBtn">Daftar sekarang</button></div>
    <p class="muted" style="margin-top:18px">Demo: admin@tanpasisa.id / admin123 · seller@tanpasisa.id / seller123 · pelanggan@tanpasisa.id / user123</p>
   </div>
