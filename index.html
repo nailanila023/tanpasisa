@@ -563,6 +563,50 @@ async function rejectOrder(code){
  if(reason===null)return;if(!reason.trim()){toast('Alasan penolakan wajib diisi.');return}
  await changeOrderStatus(code,'Ditolak',reason.trim());
 }
+  }
+function adminCreateAccount(e){
+ e.preventDefault();
+ let name=document.getElementById('adminNewName').value,email=document.getElementById('adminNewEmail').value.trim().toLowerCase(),password=document.getElementById('adminNewPassword').value,role=document.getElementById('adminNewRole').value;
+ let saved=JSON.parse(localStorage.getItem('ts_accounts')||'[]');
+ if(demoUsers.some(u=>u.email===email)||saved.some(u=>u.email===email)){toast('Email tersebut sudah digunakan');return}
+ saved.push({name,email,password,role});localStorage.setItem('ts_accounts',JSON.stringify(saved));renderDashboard();toast('Akun tambahan berhasil dibuat');
+}
+function isPendingVerification(status){return String(status||'').trim().toLowerCase().startsWith('menunggu verifikasi');}
+function orderTable(list,canVerify=false){
+ if(!list.length)return '<div class="empty">Belum ada pesanan.</div>';
+ return `<div class="tablewrap"><table><thead><tr><th>Kode</th><th>Pelanggan</th><th>Outlet</th><th>Total</th><th>Status</th><th>Aksi</th></tr></thead><tbody>${list.map(o=>{const pending=isPendingVerification(o.status);return `<tr><td><b>${o.code}</b></td><td>${o.name}</td><td>${o.outlet}</td><td>${rupiah(o.total)}</td><td><span class="status ${pending?'pending':''}">${o.status}</span>${o.rejection_reason?`<br><small>Alasan: ${o.rejection_reason}</small>`:''}</td><td>${canVerify&&pending?`<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><input style="width:135px;padding:10px;border:1px solid #ddd;border-radius:9px" placeholder="Kode scan" id="verify-${o.code}"><button class="btn small" onclick="verifyOrder('${o.code}')">Verifikasi</button><button class="btn small outline" onclick="rejectOrder('${o.code}')">Tolak</button></div>`:(!canVerify&&pending?`<button class="btn small" onclick="openCustomerOrderCode('${o.code}')">Lihat kode</button>`:'—')}</td></tr>`}).join('')}</tbody></table></div>`;
+}
+async function refreshOrdersCloud(){
+ if(!cloudReady())return;
+ const user=(await tsSupabaseClient.auth.getUser()).data?.user;if(!user)return;
+ let q=tsSupabaseClient.from('orders').select('*').order('created_at',{ascending:false});
+ if(currentUser?.role==='customer')q=q.eq('user_id',user.id);
+ const {data,error}=await q;if(error){console.error(error.message);return}
+ orders=(data||[]).map(r=>({code:r.code,date:new Date(r.created_at).toLocaleString('id-ID'),name:r.customer_name,phone:r.phone,email:r.customer_email,user_id:r.user_id,outlet:r.outlet,time:r.pickup_time,items:r.items||[],total:r.total,status:r.status,payment:r.payment,rejection_reason:r.rejection_reason}));
+ if(orders.length)latestOrder=orders[0];
+ if(document.getElementById('page-dashboard')?.classList.contains('active'))renderDashboard();
+}
+async function verifyOrder(code){
+ const input=document.getElementById('verify-'+code);
+ if(!input||input.value.trim().toUpperCase()!==code){toast('Kode tidak cocok.');return}
+ await changeOrderStatus(code,'Terverifikasi','');
+}
+async function rejectOrder(code){
+ const reason=prompt('Masukkan alasan penolakan pesanan:');
+ if(reason===null)return;if(!reason.trim()){toast('Alasan penolakan wajib diisi.');return}
+ await changeOrderStatus(code,'Ditolak',reason.trim());
+}
+async function changeOrderStatus(code,status,reason){
+ if(!cloudReady()){toast('Supabase belum aktif.');return}
+ const {error}=await tsSupabaseClient.from('orders').update({status,rejection_reason:reason,updated_at:new Date().toISOString()}).eq('code',code);
+ if(error){toast('Gagal memperbarui status: '+error.message);return}
+ await refreshOrdersCloud();renderDashboard();toast('Status pesanan tersinkron ke seluruh dashboard.');
+}
+function openCustomerOrderCode(code){
+ const o=orders.find(x=>x.code===code);
+ if(!o||!isPendingVerification(o.status)){toast('Kode tidak dapat dibuka setelah diverifikasi.');return}
+ latestOrder=o;go('barcode');
+}
 async function changeOrderStatus(code,status,reason){
  if(!cloudReady()){toast('Supabase belum aktif.');return}
  const {error}=await tsSupabaseClient.from('orders').update({status,rejection_reason:reason,updated_at:new Date().toISOString()}).eq('code',code);
