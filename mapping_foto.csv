@@ -1,0 +1,501 @@
+id,nama_produk,nama_foto,skor
+1,"Sari Roti Roti Sobek Rasa Cokelat 180 g","Sari Roti Roti Sobek Rasa Cokelat.webp",0.773
+2,"Sari Roti Roti Tawar Rasa Original 200 g","Sari Roti Roti Tawar Rasa Original.jpg",0.776
+3,"Aoka Roti Panggang Rasa Cokelat 60 g","Aoka Roti Panggang Rasa Cokelat.jpg",0.810
+4,"Mr Bread Donat Rasa Cokelat 4 pcs / 160 g","Mr Bread Donat Rasa Cokelat.jpg",0.662
+5,"Holland Bakery Roti Manis Rasa Cokelat 70 g","Holland Bakery Roti Manis Rasa Cokelat.jpg",0.777
+6,"BreadTalk Roti Isi Rasa Sosis 85 g","BreadTalk Roti Isi Rasa Sosis.jpg",0.766
+7,"Roti'O Coffee Bun Rasa Original Coffee 70 g","Roti'O Coffee Bun Rasa Original Coffee.jpg",0.824
+8,"Tous Les Jours Croissant Rasa Butter 65 g","Tous Les Jours Croissant Rasa Butter.jpg",0.771
+9,"MyRoti Sandwich Rasa Telur 100 g","MyRoti Sandwich Rasa Cokelat.jpg",0.596
+10,"Sharon Bolu Kukus Rasa Pandan 180 g","Sharon Bolu Kukus Rasa Cheese Cake.jpg",0.566
+11,"Rotiboy Coffee Bun Rasa Original 70 g","Rotiboy Coffee Bun Rasa Original.jpg",0.790
+12,"Holland Bakery Brownies Rasa Cokelat 250 g","Holland Bakery Brownies Rasa Cokelat Topping Almond.jpg",0.652
+13,"Sari Roti Roti Sobek Rasa Keju 180 g","Sari Roti Roti Sobek Rasa Keju.jpg",0.763
+14,"Sari Roti Roti Tawar Rasa Gandum 200 g","Sari Roti Roti Tawar Rasa Gandum.jpg",0.770
+15,"Aoka Roti Panggang Rasa Vanila 60 g","Aoka Roti Panggang Rasa Vanila.jpg",0.807
+16,"Mr Bread Donat Rasa Gula 4 pcs / 160 g","NO MATCH",0.504
+17,"Holland Bakery Roti Manis Rasa Keju 70 g","Holland Bakery Roti Manis Rasa Keju.jpg",0.768
+18,"BreadTalk Roti Isi Rasa Keju 85 g","BreadTalk Roti Isi Rasa Keju.jpg",0.763
+19,"Roti'O Coffee Bun Rasa Butter 70 g","Roti'O Coffee Bun Rasa Butter.jpg",0.801
+20,"Tous Les Jours Croissant Rasa Cokelat 65 g","Tous Les Jours Croissant Rasa Cokelat.jpg",0.774
+21,"MyRoti Sandwich Rasa Cokelat 100 g","MyRoti Sandwich Rasa Cokelat.jpg",0.701
+22,"Sharon Bolu Kukus Rasa Cokelat 180 g","Sharon Bolu Kukus Rasa Cheese Cake.jpg",0.535
+23,"Rotiboy Coffee Bun Rasa Cheese 70 g","Rotiboy Coffee Bun Rasa Cheese.jpg",0.784
+24,"Holland Bakery Brownies Rasa Keju 250 g","Holland Bakery Brownies Rasa Coklat Topping Keju.jpg",0.615
+25,"Sari Roti Roti Sobek Rasa Cokelat & Pisang 180 g","Sari Roti Roti Sobek Rasa Cokelat.jpg",0.701
+26,"Sari Roti Roti Tawar Rasa Double Soft 200 g","Sari Roti Roti Tawar Rasa Double Soft.jpg",0.797
+27,"Aoka Roti Panggang Rasa Pandan 60 g","Aoka Roti Panggang Rasa pandan.webp",0.807
+28,"Mr Bread Donat Rasa Keju 4 pcs / 160 g","NO MATCH",0.486
+29,"Holland Bakery Roti Manis Rasa Srikaya 70 g","Holland Bakery Roti Manis Rasa Keju.jpg",0.582
+30,"BreadTalk Roti Isi Rasa Cokelat 85 g","BreadTalk Roti Isi Rasa Keju.jpg",0.572
+31,"Roti'O Coffee Bun Rasa Original Coffee 85 g","Roti'O Coffee Bun Rasa Original Coffee.jpg",0.764
+32,"Tous Les Jours Croissant Rasa Almond 65 g","Tous Les Jours Croissant Rasa Cokelat.jpg",0.568
+33,"MyRoti Sandwich Rasa Keju 100 g","MyRoti Sandwich Rasa Margarin.jpg",0.577
+34,"Sharon Bolu Kukus Rasa Vanila 180 g","NO MATCH",0.506
+35,"Rotiboy Coffee Bun Rasa Original 90 g","Rotiboy Coffee Bun Rasa Original.jpg",0.730
+36,"Holland Bakery Brownies Rasa Cokelat 300 g","Holland Bakery Brownies Rasa Cokelat Topping Almond.jpg",0.592
+37,"Sari Roti Roti Sobek Rasa Susu 180 g","Sari Roti Roti Sobek Rasa Keju.jpg",0.577
+38,"Sari Roti Roti Tawar Rasa Original 350 g","Sari Roti Roti Tawar Rasa Original.jpg",0.716
+39,"Aoka Roti Panggang Rasa Stroberi 60 g","Aoka Roti Panggang Rasa blueerry.jpg",0.649
+40,"Mr Bread Donat Rasa Stroberi 4 pcs / 160 g","NO MATCH",0.485
+41,"Holland Bakery Roti Manis Rasa Abon 70 g","Holland Bakery Roti Manis Rasa Keju.jpg",0.582
+42,"BreadTalk Roti Isi Rasa Ayam 85 g","BreadTalk Roti Isi Rasa Keju.jpg",0.554
+43,"Roti'O Coffee Bun Rasa Butter 85 g","Roti'O Coffee Bun Rasa Butter.jpg",0.741
+44,"Tous Les Jours Croissant Rasa Butter 80 g","Tous Les Jours Croissant Rasa Butter.jpg",0.711
+45,"MyRoti Sandwich Rasa Telur 130 g","MyRoti Sandwich Rasa Cokelat.jpg",0.536
+46,"Sharon Bolu Kukus Rasa Pandan 250 g","NO MATCH",0.506
+47,"Rotiboy Coffee Bun Rasa Cheese 90 g","Rotiboy Coffee Bun Rasa Cheese.jpg",0.724
+48,"Holland Bakery Brownies Rasa Keju 300 g","Holland Bakery Brownies Rasa Coklat Topping Keju.jpg",0.555
+49,"Sari Roti Roti Sobek Rasa Cokelat 200 g","Sari Roti Roti Sobek Rasa Cokelat & Keju.webp",0.727
+50,"Sari Roti Roti Tawar Rasa Gandum 350 g","Sari Roti Roti Tawar Rasa Gandum.jpg",0.710
+51,"Aoka Roti Panggang Rasa Cokelat 70 g","Aoka Roti Panggang Rasa Cokelat.jpg",0.750
+52,"Mr Bread Donat Rasa Cokelat 6 pcs / 240 g","Mr Bread Donat Rasa Cokelat.jpg",0.602
+53,"Holland Bakery Roti Manis Rasa Cokelat 90 g","Holland Bakery Roti Manis Rasa Cokelat.jpg",0.717
+54,"BreadTalk Roti Isi Rasa Sosis 100 g","BreadTalk Roti Isi Rasa Sosis.jpg",0.699
+55,"Roti'O Coffee Bun Original Coffee 70 g Paket 55","Roti'O Coffee Bun Rasa Original Coffee.jpg",0.581
+56,"Tous Les Jours Croissant Rasa Cokelat 80 g","Tous Les Jours Croissant Rasa Cokelat.jpg",0.714
+57,"MyRoti Sandwich Rasa Cokelat 130 g","MyRoti Sandwich Rasa Cokelat.jpg",0.701
+58,"Sharon Bolu Kukus Rasa Cokelat 250 g","Sharon Bolu Kukus Rasa Cheese Cake.jpg",0.535
+59,"Rotiboy Coffee Bun Original 70 g Paket 59","Rotiboy Coffee Bun Rasa Original.jpg",0.529
+60,"Holland Bakery Brownies Cokelat 250 g Paket 60","NO MATCH",0.474
+61,"Sari Roti Roti Sobek Rasa Keju 200 g","Sari Roti Roti Sobek Rasa Keju.jpg",0.703
+62,"Sari Roti Roti Tawar Rasa Double Soft 350 g","Sari Roti Roti Tawar Rasa Double Soft.jpg",0.737
+63,"Aoka Roti Panggang Rasa Vanila 70 g","Aoka Roti Panggang Rasa Vanila.jpg",0.747
+64,"HokBen Paket Bento Rasa Chicken Teriyaki 250 g","NO MATCH",0.381
+65,"Yoshinoya Beef Bowl Rasa Original 250 g","NO MATCH",0.363
+66,"Solaria Nasi Goreng Rasa Seafood 300 g","Nasi Goreng Seafood.avif",0.530
+67,"Alfamart Rice Box Rasa Ayam Teriyaki 250 g","NO MATCH",0.306
+68,"Indomaret Paket Nasi Rasa Ayam Sambal Matah 250 g","Indomaret Paket Nasi Rasa Telur Balado.jpg",0.543
+69,"Fiesta Chicken Karage Meal Rasa Original 200 g","NO MATCH",0.343
+70,"Dapur Umum Nasi Ayam Rasa Ayam Bakar 300 g","NO MATCH",0.319
+71,"Mitra Kuliner Mie Goreng Rasa Jawa 250 g","NO MATCH",0.453
+72,"Mitra Kuliner Gado-Gado Rasa Bumbu Kacang 250 g","Mitra Kuliner Gado-Gado Bumbu Kacang.webp",0.701
+73,"Mitra Kuliner Pempek Rasa Kapal Selam 3 pcs / 220 g","Mitra Kuliner Pempek Rasa Kapal Selam.jpg",0.691
+74,"Mitra Kuliner Soto Ayam Rasa Original 300 ml","Mitra Kuliner Soto Ayam.jpg",0.544
+75,"Mitra Kuliner Spaghetti Rasa Bolognese 250 g","NO MATCH",0.387
+76,"HokBen Paket Bento Rasa Beef Yakiniku 250 g","NO MATCH",0.296
+77,"Yoshinoya Beef Bowl Rasa Spicy 250 g","NO MATCH",0.271
+78,"Solaria Nasi Goreng Rasa Ayam 300 g","NO MATCH",0.486
+79,"Alfamart Rice Box Rasa Chicken Katsu 250 g","NO MATCH",0.340
+80,"Indomaret Paket Nasi Rasa Ayam Teriyaki 250 g","NO MATCH",0.499
+81,"Fiesta Chicken Karage Meal Rasa Spicy 200 g","NO MATCH",0.336
+82,"Dapur Umum Nasi Ayam Rasa Ayam Geprek 300 g","NO MATCH",0.421
+83,"Mitra Kuliner Mie Goreng Rasa Pedas 250 g","NO MATCH",0.454
+84,"Mitra Kuliner Gado-Gado Rasa Bumbu Kacang 300 g","Mitra Kuliner Gado-Gado Bumbu Kacang.webp",0.641
+85,"Mitra Kuliner Pempek Rasa Lenjer 3 pcs / 220 g","NO MATCH",0.450
+86,"Mitra Kuliner Soto Ayam Rasa Original 400 ml","NO MATCH",0.484
+87,"Mitra Kuliner Spaghetti Rasa Carbonara 250 g","NO MATCH",0.387
+88,"HokBen Paket Bento Rasa Chicken Katsu 250 g","NO MATCH",0.312
+89,"Yoshinoya Beef Bowl Rasa Original 300 g","NO MATCH",0.363
+90,"Solaria Nasi Goreng Rasa Special 300 g","NO MATCH",0.403
+91,"Alfamart Rice Box Rasa Beef Blackpepper 250 g","NO MATCH",0.305
+92,"Indomaret Paket Nasi Rasa Telur Balado 250 g","Indomaret Paket Nasi Rasa Telur Balado.jpg",0.739
+93,"Fiesta Chicken Karage Meal Rasa Original 250 g","NO MATCH",0.343
+94,"Dapur Umum Nasi Ayam Rasa Ayam Suwir 300 g","NO MATCH",0.415
+95,"Mitra Kuliner Mie Goreng Rasa Ayam 250 g","NO MATCH",0.411
+96,"Mitra Kuliner Gado-Gado Bumbu Kacang 250 g Paket 33","Mitra Kuliner Gado-Gado Bumbu Kacang.webp",0.598
+97,"Mitra Kuliner Pempek Rasa Kapal Selam 4 pcs / 280 g","Mitra Kuliner Pempek Rasa Kapal Selam.jpg",0.631
+98,"Mitra Kuliner Soto Ayam Original 300 ml Paket 35","NO MATCH",0.447
+99,"Mitra Kuliner Spaghetti Rasa Bolognese 300 g","NO MATCH",0.387
+100,"HokBen Paket Bento Rasa Chicken Teriyaki 300 g","NO MATCH",0.381
+101,"Yoshinoya Beef Bowl Rasa Spicy 300 g","NO MATCH",0.271
+102,"Solaria Nasi Goreng Rasa Seafood 350 g","NO MATCH",0.470
+103,"Alfamart Rice Box Rasa Ayam Teriyaki 300 g","NO MATCH",0.306
+104,"Indomaret Paket Nasi Rasa Ayam Sambal Matah 300 g","NO MATCH",0.483
+105,"Fiesta Chicken Karage Meal Rasa Spicy 250 g","NO MATCH",0.336
+106,"Dapur Umum Nasi Ayam Rasa Ayam Bakar 350 g","NO MATCH",0.319
+107,"Mitra Kuliner Mie Goreng Rasa Jawa 300 g","NO MATCH",0.393
+108,"Mitra Kuliner Gado-Gado Bumbu Kacang 300 g Paket 45","Mitra Kuliner Gado-Gado Bumbu Kacang.webp",0.598
+109,"Mitra Kuliner Pempek Rasa Lenjer 4 pcs / 280 g","NO MATCH",0.450
+110,"Mitra Kuliner Soto Ayam Original 400 ml Paket 47","NO MATCH",0.447
+111,"Mitra Kuliner Spaghetti Rasa Carbonara 300 g","NO MATCH",0.387
+112,"HokBen Paket Bento Rasa Beef Yakiniku 300 g","NO MATCH",0.296
+113,"Yoshinoya Beef Bowl Original 250 g Paket 50","NO MATCH",0.282
+114,"Solaria Nasi Goreng Rasa Ayam 350 g","NO MATCH",0.486
+115,"Alfamart Rice Box Rasa Chicken Katsu 300 g","NO MATCH",0.340
+116,"Indomaret Paket Nasi Rasa Ayam Teriyaki 300 g","NO MATCH",0.499
+117,"Fiesta Chicken Karage Meal Original 200 g Paket 54","NO MATCH",0.324
+118,"Dapur Umum Nasi Ayam Rasa Ayam Geprek 350 g","NO MATCH",0.421
+119,"Mitra Kuliner Mie Goreng Rasa Pedas 300 g","NO MATCH",0.454
+120,"Mitra Kuliner Gado-Gado Bumbu Kacang 250 g Paket 57","Mitra Kuliner Gado-Gado Bumbu Kacang.webp",0.598
+121,"Mitra Kuliner Pempek Kapal Selam 3 pcs / 220 g Paket 58","NO MATCH",0.486
+122,"Mitra Kuliner Soto Ayam Original 300 ml Paket 59","NO MATCH",0.447
+123,"Mitra Kuliner Spaghetti Bolognese 250 g Paket 60","NO MATCH",0.300
+124,"HokBen Paket Bento Rasa Chicken Katsu 300 g","NO MATCH",0.312
+125,"Yoshinoya Beef Bowl Spicy 250 g Paket 62","NO MATCH",0.241
+126,"Solaria Nasi Goreng Rasa Special 350 g","NO MATCH",0.403
+127,"Chitato Potato Chips Rasa Sapi Panggang 68 g","NO MATCH",0.403
+128,"Qtela Keripik Singkong Rasa Original 60 g","NO MATCH",0.355
+129,"Taro Net Snack Rasa BBQ 65 g","NO MATCH",0.331
+130,"Tango Wafer Rasa Cokelat 130 g","NO MATCH",0.406
+131,"Nabati Richeese Wafer Rasa Keju 110 g","NO MATCH",0.377
+132,"Oreo Chocolate Sandwich Cookies Rasa Vanila 119 g","NO MATCH",0.317
+133,"Roma Malkist Rasa Abon 120 g","Roma Malkist Abon.jpg",0.617
+134,"SilverQueen Chocolate Bar Rasa Almond 33 g","NO MATCH",0.307
+135,"Pocky Biscuit Sticks Rasa Chocolate 40 g","NO MATCH",0.316
+136,"Garuda Kacang Atom Rasa Original 100 g","garuda kacang Atom.jpg",0.521
+137,"Kusuka Keripik Singkong Rasa Original 60 g","NO MATCH",0.339
+138,"Beng-Beng Wafer Cokelat Rasa Original 22 g","NO MATCH",0.312
+139,"Piattos Potato Crisps Rasa Sapi Panggang 68 g","NO MATCH",0.383
+140,"Momogi Jagung Bakar Snack Rasa Jagung Bakar 15 g","NO MATCH",0.410
+141,"Chitato Potato Chips Rasa BBQ 68 g","NO MATCH",0.252
+142,"Qtela Keripik Singkong Rasa Balado 60 g","NO MATCH",0.342
+143,"Taro Net Snack Rasa Seaweed 65 g","NO MATCH",0.350
+144,"Tango Wafer Rasa Vanila 130 g","NO MATCH",0.398
+145,"Nabati Richeese Wafer Rasa Cokelat 110 g","NO MATCH",0.403
+146,"Oreo Chocolate Sandwich Cookies Rasa Cokelat 119 g","NO MATCH",0.433
+147,"Roma Malkist Rasa Keju 120 g","Roma Malkist Keju.jpg",0.617
+148,"SilverQueen Chocolate Bar Rasa Cashew 33 g","NO MATCH",0.320
+149,"Pocky Biscuit Sticks Rasa Strawberry 40 g","NO MATCH",0.392
+150,"Garuda Kacang Atom Rasa Pedas 100 g","NO MATCH",0.480
+151,"Kusuka Keripik Singkong Rasa Balado 60 g","NO MATCH",0.350
+152,"Beng-Beng Wafer Cokelat Rasa Original Berisi 10 pcs","NO MATCH",0.281
+153,"Piattos Potato Crisps Rasa Sambal BBQ 68 g","NO MATCH",0.288
+154,"Momogi Jagung Bakar Snack Rasa Cokelat 15 g","NO MATCH",0.387
+155,"Chitato Potato Chips Rasa Sambal Matah 68 g","NO MATCH",0.413
+156,"Qtela Keripik Singkong Rasa Tempe 60 g","NO MATCH",0.316
+157,"Taro Net Snack Rasa Sapi Panggang 65 g","NO MATCH",0.409
+158,"Tango Wafer Rasa Pandan 130 g","NO MATCH",0.398
+159,"Nabati Richeese Wafer Rasa Keju 145 g","NO MATCH",0.377
+160,"Oreo Chocolate Sandwich Cookies Rasa Strawberry 119 g","NO MATCH",0.364
+161,"Roma Malkist Rasa Cokelat 120 g","NO MATCH",0.511
+162,"SilverQueen Chocolate Bar Rasa Fruit & Nut 33 g","NO MATCH",0.307
+163,"Pocky Biscuit Sticks Rasa Matcha 40 g","NO MATCH",0.303
+164,"Garuda Kacang Atom Rasa Original 120 g","NO MATCH",0.461
+165,"Kusuka Keripik Singkong Rasa Keju 60 g","NO MATCH",0.391
+166,"Beng-Beng Wafer Cokelat Original 22 g Paket 40","NO MATCH",0.255
+167,"Piattos Potato Crisps Rasa Sapi Panggang 75 g","NO MATCH",0.383
+168,"Momogi Jagung Bakar Snack Rasa Jagung Bakar 24 g","NO MATCH",0.410
+169,"Chitato Potato Chips Rasa Sapi Panggang 75 g","NO MATCH",0.403
+170,"Qtela Keripik Singkong Rasa Original 75 g","NO MATCH",0.355
+171,"Taro Net Snack Rasa BBQ 75 g","NO MATCH",0.331
+172,"Tango Wafer Rasa Cokelat 160 g","NO MATCH",0.406
+173,"Nabati Richeese Wafer Rasa Cokelat 145 g","NO MATCH",0.403
+174,"Oreo Chocolate Sandwich Cookies Rasa Vanila 133 g","NO MATCH",0.317
+175,"Roma Malkist Rasa Abon 135 g","Roma Malkist Abon.jpg",0.557
+176,"SilverQueen Chocolate Bar Rasa Almond 55 g","NO MATCH",0.307
+177,"Pocky Biscuit Sticks Rasa Chocolate 45 g","NO MATCH",0.316
+178,"Garuda Kacang Atom Rasa Pedas 120 g","NO MATCH",0.480
+179,"Kusuka Keripik Singkong Rasa Original 75 g","NO MATCH",0.339
+180,"Beng-Beng Wafer Cokelat Original Berisi 10 pcs Paket 54","NO MATCH",0.240
+181,"Piattos Potato Crisps Rasa Sambal BBQ 75 g","NO MATCH",0.288
+182,"Momogi Jagung Bakar Snack Rasa Cokelat 24 g","NO MATCH",0.387
+183,"Chitato Potato Chips Rasa BBQ 75 g","NO MATCH",0.252
+184,"Qtela Keripik Singkong Rasa Balado 75 g","NO MATCH",0.342
+185,"Taro Net Snack Rasa Seaweed 75 g","NO MATCH",0.350
+186,"Tango Wafer Rasa Vanila 160 g","NO MATCH",0.398
+187,"Nabati Richeese Wafer Keju 110 g Paket 61","NO MATCH",0.303
+188,"Oreo Chocolate Sandwich Cookies Rasa Cokelat 133 g","NO MATCH",0.433
+189,"Roma Malkist Rasa Keju 135 g","Roma Malkist Keju.jpg",0.557
+190,"Cimory Yogurt Drink Rasa Hazelnut 250 ml","Cimory Yogurt Drink banana.jpg",0.541
+191,"Ultra Milk UHT Milk Rasa Full Cream 200 ml","Ultra Milk Full Cream.jpg",0.544
+192,"Indomilk Susu UHT Rasa Cokelat 190 ml","NO MATCH",0.377
+193,"Teh Pucuk Harum Teh Melati Rasa Original 350 ml","NO MATCH",0.465
+194,"Aqua Air Mineral Rasa Original 330 ml","NO MATCH",0.353
+195,"Le Minerale Air Mineral Rasa Original 600 ml","NO MATCH",0.367
+196,"Fruit Tea Teh Rasa Rasa Apel 350 ml","NO MATCH",0.446
+197,"Frestea Teh Melati Rasa Original 350 ml","NO MATCH",0.363
+198,"Pocari Sweat Ion Supply Drink Rasa Original 350 ml","NO MATCH",0.300
+199,"Nu Green Tea Teh Hijau Rasa Original 330 ml","NO MATCH",0.394
+200,"Floridina Minuman Jeruk Rasa Original 350 ml","NO MATCH",0.298
+201,"Buavita Jus Buah Rasa Jambu 250 ml","NO MATCH",0.407
+202,"Good Day Kopi Susu Rasa Mocacinno 250 ml","NO MATCH",0.488
+203,"Cimory Yogurt Drink Rasa Blueberry 250 ml","Cimory Yogurt Drink Blueberry.jpg",0.690
+204,"Ultra Milk UHT Milk Rasa Cokelat 200 ml","NO MATCH",0.417
+205,"Indomilk Susu UHT Rasa Vanila 190 ml","NO MATCH",0.276
+206,"Teh Pucuk Harum Teh Melati Rasa Original 500 ml","NO MATCH",0.451
+207,"Aqua Air Mineral Rasa Original 600 ml","NO MATCH",0.353
+208,"Le Minerale Air Mineral Rasa Original 1.5 L","NO MATCH",0.323
+209,"Fruit Tea Teh Rasa Rasa Blackcurrant 350 ml","Fruit Tea Blackcurrant",0.531
+210,"Frestea Teh Melati Rasa Madu 350 ml","NO MATCH",0.376
+211,"Pocari Sweat Ion Supply Drink Rasa Original 500 ml","NO MATCH",0.300
+212,"Nu Green Tea Teh Hijau Rasa Madu 330 ml","NO MATCH",0.392
+213,"Floridina Minuman Jeruk Rasa Original 500 ml","NO MATCH",0.298
+214,"Buavita Jus Buah Rasa Mangga 250 ml","NO MATCH",0.419
+215,"Good Day Kopi Susu Rasa Carrebian Nut 250 ml","NO MATCH",0.354
+216,"Cimory Yogurt Drink Rasa Strawberry 250 ml","Cimory Yogurt Drink Strawberry.jpg",0.694
+217,"Ultra Milk UHT Milk Rasa Strawberry 200 ml","NO MATCH",0.394
+218,"Indomilk Susu UHT Rasa Strawberry 190 ml","NO MATCH",0.385
+219,"Teh Pucuk Harum Teh Melati Original 350 ml Paket 30","NO MATCH",0.442
+220,"Aqua Air Mineral Rasa Original 1.5 L","NO MATCH",0.323
+221,"Le Minerale Air Mineral Original 600 ml Paket 32","NO MATCH",0.344
+222,"Fruit Tea Teh Rasa Rasa Guava 350 ml","NO MATCH",0.381
+223,"Frestea Teh Melati Rasa Original 500 ml","NO MATCH",0.363
+224,"Pocari Sweat Ion Supply Drink Original 350 ml Paket 35","NO MATCH",0.242
+225,"Nu Green Tea Teh Hijau Rasa Original 450 ml","NO MATCH",0.394
+226,"Floridina Minuman Jeruk Original 350 ml Paket 37","NO MATCH",0.292
+227,"Buavita Jus Buah Rasa Jeruk 250 ml","NO MATCH",0.407
+228,"Good Day Kopi Susu Rasa Vanilla Latte 250 ml","NO MATCH",0.354
+229,"Cimory Yogurt Drink Rasa Original 250 ml","Cimory Yogurt Squeeze Original.jpg",0.536
+230,"Ultra Milk UHT Milk Rasa Taro 200 ml","NO MATCH",0.465
+231,"Indomilk Susu UHT Rasa Cokelat 250 ml","NO MATCH",0.377
+232,"Teh Pucuk Harum Teh Melati Original 500 ml Paket 43","NO MATCH",0.429
+233,"Aqua Air Mineral Original 330 ml Paket 44","NO MATCH",0.329
+234,"Le Minerale Air Mineral Original 1.5 L Paket 45","NO MATCH",0.303
+235,"Fruit Tea Teh Rasa Rasa Apel 500 ml","NO MATCH",0.446
+236,"Frestea Teh Melati Rasa Madu 500 ml","NO MATCH",0.376
+237,"Pocari Sweat Ion Supply Drink Original 500 ml Paket 48","NO MATCH",0.242
+238,"Nu Green Tea Teh Hijau Rasa Madu 450 ml","NO MATCH",0.392
+239,"Floridina Minuman Jeruk Original 500 ml Paket 50","NO MATCH",0.292
+240,"Buavita Jus Buah Rasa Jambu 1 L","NO MATCH",0.425
+241,"Good Day Kopi Susu Rasa Mocacinno 250 ml · Paket 241","NO MATCH",0.424
+242,"Cimory Yogurt Drink Rasa Hazelnut ","Cimory Yogurt Drink Lychee.jpg",0.608
+243,"Ultra Milk UHT Milk Rasa Full Cream 250 ml","NO MATCH",0.484
+244,"Indomilk Susu UHT Rasa Vanila 250 ml","NO MATCH",0.276
+245,"Teh Pucuk Harum Teh Melati Original 350 ml Paket 56","NO MATCH",0.442
+246,"Aqua Air Mineral Original 600 ml Paket 57","NO MATCH",0.329
+247,"Le Minerale Air Mineral Original 600 ml Paket 58","NO MATCH",0.344
+248,"Fruit Tea Teh Rasa Rasa Blackcurrant 500 ml","NO MATCH",0.512
+249,"Frestea Teh Melati Original 350 ml Paket 60","NO MATCH",0.334
+250,"Pocari Sweat Ion Supply Drink Original 350 ml Paket 61","NO MATCH",0.242
+251,"Nu Green Tea Teh Hijau Original 330 ml Paket 62","NO MATCH",0.369
+252,"Floridina Minuman Jeruk Original 350 ml Paket 63","NO MATCH",0.292
+253,"Fiesta Nugget Ayam Rasa Original 250 g","NO MATCH",0.345
+254,"So Good Chicken Stick Rasa Original 250 g","NO MATCH",0.361
+255,"Kanzler Sosis Frankfurter Rasa Original 250 g","NO MATCH",0.403
+256,"Champ Sosis Ayam Rasa Original 375 g","NO MATCH",0.325
+257,"Belfoods Nugget Rasa Ayam 250 g","NO MATCH",0.363
+258,"Bernardi Bakso Sapi Rasa Original 250 g","NO MATCH",0.343
+259,"Sunny Gold Chicken Karaage Rasa Original 250 g","NO MATCH",0.295
+260,"Fiesta Kentang Goreng Rasa Shoestring 500 g","NO MATCH",0.341
+261,"Kanzler Chicken Nugget Rasa Crispy 250 g","NO MATCH",0.298
+262,"Mitra Frozen Dimsum Ayam Rasa Original 10 pcs / 250 g","NO MATCH",0.312
+263,"Mitra Frozen Cireng Isi Rasa Ayam Pedas 10 pcs / 250 g","NO MATCH",0.272
+264,"Fiesta Nugget Ayam Rasa karage 250 g","NO MATCH",0.325
+265,"So Good Chicken Stick Rasa Spicy 250 g","NO MATCH",0.334
+266,"Kanzler Sosis Frankfurter Rasa Cheese 250 g","NO MATCH",0.389
+267,"Champ Sosis Ayam Rasa Sapi 375 g","NO MATCH",0.341
+268,"Belfoods Nugget Rasa Stik 250 g","NO MATCH",0.291
+269,"Bernardi Bakso Sapi Rasa Original 500 g","NO MATCH",0.343
+270,"Sunny Gold Chicken Karaage Rasa Spicy 250 g","NO MATCH",0.324
+271,"Fiesta Kentang Goreng Rasa Crinkle Cut 500 g","NO MATCH",0.342
+272,"Kanzler Chicken Nugget Rasa Original 250 g","NO MATCH",0.359
+273,"Mitra Frozen Dimsum Ayam Rasa Udang 10 pcs / 250 g","NO MATCH",0.290
+274,"Mitra Frozen Cireng Isi Rasa Keju 10 pcs / 250 g","NO MATCH",0.326
+275,"Fiesta Nugget Ayam Rasa Cheese 250 g","NO MATCH",0.322
+276,"So Good Chicken Stick Rasa Original 400 g","NO MATCH",0.361
+277,"Kanzler Sosis Frankfurter Rasa Cocktail 250 g","NO MATCH",0.385
+278,"Champ Sosis Ayam Rasa Original 500 g","NO MATCH",0.325
+279,"Belfoods Nugget Rasa Coin 250 g","NO MATCH",0.306
+280,"Bernardi Bakso Sapi Original 250 g Paket 28","NO MATCH",0.271
+281,"Sunny Gold Chicken Karaage Rasa Original 500 g","NO MATCH",0.295
+282,"Fiesta Kentang Goreng Rasa Shoestring 1 kg","NO MATCH",0.344
+283,"Kanzler Chicken Nugget Rasa Crispy 500 g","NO MATCH",0.298
+284,"Mitra Frozen Dimsum Ayam Rasa Original 20 pcs / 500 g","NO MATCH",0.312
+285,"Mitra Frozen Cireng Isi Rasa Ayam Pedas 20 pcs / 500 g","NO MATCH",0.272
+286,"Fiesta Nugget Ayam Rasa Original 500 g","NO MATCH",0.345
+287,"So Good Chicken Stick Rasa Spicy 400 g","NO MATCH",0.334
+288,"Kanzler Sosis Frankfurter Rasa Original 360 g","NO MATCH",0.403
+289,"Champ Sosis Ayam Rasa Sapi 500 g","NO MATCH",0.341
+290,"Belfoods Nugget Rasa Ayam 500 g","NO MATCH",0.363
+291,"Bernardi Bakso Sapi Original 500 g Paket 39","NO MATCH",0.271
+292,"Sunny Gold Chicken Karaage Rasa Spicy 500 g","NO MATCH",0.324
+293,"Fiesta Kentang Goreng Rasa Crinkle Cut 1 kg","NO MATCH",0.346
+294,"Kanzler Chicken Nugget Rasa Original 500 g","NO MATCH",0.359
+295,"Mitra Frozen Dimsum Ayam Rasa Udang 20 pcs / 500 g","NO MATCH",0.290
+296,"Mitra Frozen Cireng Isi Rasa Keju 20 pcs / 500 g","NO MATCH",0.326
+297,"Fiesta Nugget Ayam Rasa karage 500 g","NO MATCH",0.325
+298,"So Good Chicken Stick Original 250 g Paket 46","NO MATCH",0.340
+299,"Kanzler Sosis Frankfurter Rasa Cheese 360 g","NO MATCH",0.389
+300,"Champ Sosis Ayam Original 375 g Paket 48","NO MATCH",0.340
+301,"Belfoods Nugget Rasa Stik 500 g","NO MATCH",0.291
+302,"Bernardi Bakso Sapi Original 250 g Paket 50","NO MATCH",0.271
+303,"Sunny Gold Chicken Karaage Original 250 g Paket 51","NO MATCH",0.279
+304,"Fiesta Kentang Goreng Shoestring 500 g Paket 52","NO MATCH",0.287
+305,"Kanzler Chicken Nugget Crispy 250 g Paket 53","NO MATCH",0.277
+306,"Mitra Frozen Dimsum Ayam Original 10 pcs / 250 g Paket 54","NO MATCH",0.271
+307,"Mitra Frozen Cireng Isi Ayam Pedas 10 pcs / 250 g Paket 55","NO MATCH",0.256
+308,"Fiesta Nugget Ayam Rasa Cheese 500 g","NO MATCH",0.322
+309,"So Good Chicken Stick Spicy 250 g Paket 57","NO MATCH",0.331
+310,"Kanzler Sosis Frankfurter Rasa Cocktail 360 g","NO MATCH",0.385
+311,"Champ Sosis Ayam Sapi 375 g Paket 59","NO MATCH",0.308
+312,"Belfoods Nugget Rasa Coin 500 g","NO MATCH",0.306
+313,"Bernardi Bakso Sapi Original 500 g Paket 61","NO MATCH",0.271
+314,"Sunny Gold Chicken Karaage Spicy 250 g Paket 62","NO MATCH",0.322
+315,"Indomie Mi Instan Rasa Mi Goreng 85 g","NO MATCH",0.365
+316,"Mie Sedaap Mi Instan Rasa Goreng 90 g","NO MATCH",0.316
+317,"Bimoli Minyak Goreng Rasa Klasik 1 L","NO MATCH",0.355
+318,"Rose Brand Tepung Terigu Rasa Serbaguna 500 g","NO MATCH",0.326
+319,"Gulaku Gula Tebu Rasa Premium 1 kg","NO MATCH",0.277
+320,"Sania Beras Premium Rasa Pulen 1 kg","NO MATCH",0.286
+321,"ABC Sarden Rasa Saus Tomat 155 g","NO MATCH",0.326
+322,"Sasa Tepung Bumbu Rasa Serbaguna 200 g","NO MATCH",0.299
+323,"Masako Bumbu Kaldu Rasa Ayam 100 g","NO MATCH",0.334
+324,"Sajiku Bumbu Praktis Rasa Nasi Goreng 20 g","NO MATCH",0.369
+325,"Kecap ABC Kecap Manis Rasa Original 135 ml","NO MATCH",0.316
+326,"Filma Minyak Goreng Rasa Premium 1 L","NO MATCH",0.357
+327,"Indomie Mi Instan Rasa Soto 85 g","NO MATCH",0.283
+328,"Mie Sedaap Mi Instan Rasa Kari Ayam 90 g","NO MATCH",0.355
+329,"Bimoli Minyak Goreng Rasa Klasik 2 L","NO MATCH",0.355
+330,"Rose Brand Tepung Terigu Rasa Serbaguna 1 kg","NO MATCH",0.329
+331,"Gulaku Gula Tebu Rasa Premium 2 kg","NO MATCH",0.277
+332,"Sania Beras Premium Rasa Pulen 5 kg","NO MATCH",0.286
+333,"ABC Sarden Rasa Saus Cabai 155 g","NO MATCH",0.335
+334,"Sasa Tepung Bumbu Rasa Original 200 g","NO MATCH",0.345
+335,"Masako Bumbu Kaldu Rasa Sapi 100 g","NO MATCH",0.282
+336,"Sajiku Bumbu Praktis Rasa Ayam Goreng 20 g","NO MATCH",0.347
+337,"Kecap ABC Kecap Manis Rasa Original 275 ml","NO MATCH",0.316
+338,"Filma Minyak Goreng Rasa Premium 2 L","NO MATCH",0.357
+339,"Indomie Mi Instan Rasa Ayam Bawang 85 g","NO MATCH",0.347
+340,"Mie Sedaap Mi Instan Rasa Korean Spicy 90 g","NO MATCH",0.277
+341,"Bimoli Minyak Goreng Klasik 1 L Paket 27","NO MATCH",0.370
+342,"Rose Brand Tepung Terigu Serbaguna 500 g Paket 28","NO MATCH",0.251
+343,"Gulaku Gula Tebu Premium 1 kg Paket 29","NO MATCH",0.249
+344,"Sania Beras Premium Pulen 1 kg Paket 30","NO MATCH",0.253
+345,"ABC Sarden Rasa Saus Tomat 425 g","NO MATCH",0.326
+346,"Sasa Tepung Bumbu Rasa Serbaguna 225 g","NO MATCH",0.299
+347,"Masako Bumbu Kaldu Rasa Ayam 250 g","NO MATCH",0.334
+348,"Sajiku Bumbu Praktis Rasa Nasi Goreng 40 g","NO MATCH",0.369
+349,"Kecap ABC Kecap Manis Original 135 ml Paket 35","NO MATCH",0.298
+350,"Filma Minyak Goreng Premium 1 L Paket 36","NO MATCH",0.339
+351,"Indomie Mi Instan Rasa Rendang 85 g","NO MATCH",0.317
+352,"Mie Sedaap Mi Instan Rasa Goreng 5 x 90 g","NO MATCH",0.292
+353,"Bimoli Minyak Goreng Klasik 2 L Paket 39","NO MATCH",0.370
+354,"Rose Brand Tepung Terigu Serbaguna 1 kg Paket 40","NO MATCH",0.254
+355,"Gulaku Gula Tebu Premium 2 kg Paket 41","NO MATCH",0.249
+356,"Sania Beras Premium Pulen 5 kg Paket 42","NO MATCH",0.249
+357,"ABC Sarden Rasa Saus Cabai 425 g","NO MATCH",0.335
+358,"Sasa Tepung Bumbu Rasa Original 225 g","NO MATCH",0.345
+359,"Masako Bumbu Kaldu Rasa Sapi 250 g","NO MATCH",0.282
+360,"Sajiku Bumbu Praktis Rasa Ayam Goreng 40 g","NO MATCH",0.347
+361,"Kecap ABC Kecap Manis Original 275 ml Paket 47","NO MATCH",0.298
+362,"Filma Minyak Goreng Premium 2 L Paket 48","NO MATCH",0.339
+363,"Indomie Mi Instan Rasa Mi Goreng 5 x 85 g","NO MATCH",0.341
+364,"Mie Sedaap Mi Instan Rasa Kari Ayam 5 x 90 g","NO MATCH",0.334
+365,"Bimoli Minyak Goreng Klasik 1 L Paket 51","NO MATCH",0.370
+366,"Rose Brand Tepung Terigu Serbaguna 500 g Paket 52","NO MATCH",0.251
+367,"Gulaku Gula Tebu Premium 1 kg Paket 53","NO MATCH",0.249
+368,"Sania Beras Premium Pulen 1 kg Paket 54","NO MATCH",0.249
+369,"ABC Sarden Saus Tomat 155 g Paket 55","NO MATCH",0.280
+370,"Sasa Tepung Bumbu Serbaguna 200 g Paket 56","NO MATCH",0.303
+371,"Masako Bumbu Kaldu Ayam 100 g Paket 57","NO MATCH",0.327
+372,"Sajiku Bumbu Praktis Nasi Goreng 20 g Paket 58","NO MATCH",0.368
+373,"Kecap ABC Kecap Manis Original 135 ml Paket 59","NO MATCH",0.298
+374,"Filma Minyak Goreng Premium 1 L Paket 60","NO MATCH",0.339
+375,"Indomie Mi Instan Rasa Soto 5 x 85 g","NO MATCH",0.267
+376,"Mie Sedaap Mi Instan Rasa Korean Spicy 5 x 90 g","NO MATCH",0.263
+377,"TaniHub Fresh Pisang Cavendish Rasa Matang 500 g","NO MATCH",0.278
+378,"TaniHub Fresh Apel Fuji Rasa Grade A 500 g","NO MATCH",0.278
+379,"TaniHub Fresh Jeruk Medan Rasa Segar 500 g","NO MATCH",0.288
+380,"TaniHub Fresh Pepaya Potong Rasa Siap Santap 250 g","NO MATCH",0.324
+381,"TaniHub Fresh Semangka Potong Rasa Siap Santap 250 g","NO MATCH",0.342
+382,"TaniHub Fresh Wortel Rasa Segar 500 g","NO MATCH",0.285
+383,"TaniHub Fresh Brokoli Rasa Segar 250 g","NO MATCH",0.282
+384,"TaniHub Fresh Bayam Rasa Petik Segar 1 ikat","NO MATCH",0.295
+385,"TaniHub Fresh Tomat Rasa Segar 500 g","NO MATCH",0.288
+386,"TaniHub Fresh Kentang Rasa Granola 500 g","NO MATCH",0.277
+387,"TaniHub Fresh Paket Sayur Sop Rasa Komplit 400 g","NO MATCH",0.276
+388,"TaniHub Fresh Buah Naga Rasa Merah 500 g","NO MATCH",0.291
+389,"TaniHub Fresh Pisang Cavendish Rasa Matang 1 kg","NO MATCH",0.281
+390,"TaniHub Fresh Apel Fuji Rasa Grade A 1 kg","NO MATCH",0.281
+391,"TaniHub Fresh Jeruk Medan Rasa Segar 1 kg","NO MATCH",0.291
+392,"TaniHub Fresh Pepaya Potong Rasa Siap Santap 400 g","NO MATCH",0.324
+393,"TaniHub Fresh Semangka Potong Rasa Siap Santap 400 g","NO MATCH",0.342
+394,"TaniHub Fresh Wortel Rasa Segar 1 kg","NO MATCH",0.289
+395,"TaniHub Fresh Brokoli Rasa Segar 500 g","NO MATCH",0.282
+396,"TaniHub Fresh Bayam Rasa Petik Segar 2 ikat","NO MATCH",0.295
+397,"TaniHub Fresh Tomat Rasa Segar 1 kg","NO MATCH",0.292
+398,"TaniHub Fresh Kentang Rasa Granola 1 kg","NO MATCH",0.295
+399,"TaniHub Fresh Paket Sayur Sop Rasa Komplit 600 g","NO MATCH",0.276
+400,"TaniHub Fresh Buah Naga Rasa Merah 1 kg","NO MATCH",0.293
+401,"TaniHub Fresh Pisang Cavendish Matang 500 g Paket 25","NO MATCH",0.252
+402,"TaniHub Fresh Apel Fuji Grade A 500 g Paket 26","NO MATCH",0.264
+403,"TaniHub Fresh Jeruk Medan Segar 500 g Paket 27","NO MATCH",0.302
+404,"TaniHub Fresh Pepaya Potong Siap Santap 250 g Paket 28","NO MATCH",0.305
+405,"TaniHub Fresh Semangka Potong Siap Santap 250 g Paket 29","NO MATCH",0.324
+406,"TaniHub Fresh Wortel Segar 500 g Paket 30","NO MATCH",0.302
+407,"TaniHub Fresh Brokoli Segar 250 g Paket 31","NO MATCH",0.299
+408,"TaniHub Fresh Bayam Petik Segar 1 ikat Paket 32","NO MATCH",0.281
+409,"TaniHub Fresh Tomat Segar 500 g Paket 33","NO MATCH",0.289
+410,"TaniHub Fresh Kentang Granola 500 g Paket 34","NO MATCH",0.285
+411,"TaniHub Fresh Paket Sayur Sop Komplit 400 g Paket 35","NO MATCH",0.264
+412,"TaniHub Fresh Buah Naga Merah 500 g Paket 36","NO MATCH",0.278
+413,"TaniHub Fresh Pisang Cavendish Matang 1 kg Paket 37","NO MATCH",0.254
+414,"TaniHub Fresh Apel Fuji Grade A 1 kg Paket 38","NO MATCH",0.263
+415,"TaniHub Fresh Jeruk Medan Segar 1 kg Paket 39","NO MATCH",0.305
+416,"TaniHub Fresh Pepaya Potong Siap Santap 400 g Paket 40","NO MATCH",0.305
+417,"TaniHub Fresh Semangka Potong Siap Santap 400 g Paket 41","NO MATCH",0.324
+418,"TaniHub Fresh Wortel Segar 1 kg Paket 42","NO MATCH",0.305
+419,"TaniHub Fresh Brokoli Segar 500 g Paket 43","NO MATCH",0.299
+420,"TaniHub Fresh Bayam Petik Segar 2 ikat Paket 44","NO MATCH",0.281
+421,"TaniHub Fresh Tomat Segar 1 kg Paket 45","NO MATCH",0.292
+422,"TaniHub Fresh Kentang Granola 1 kg Paket 46","NO MATCH",0.289
+423,"TaniHub Fresh Paket Sayur Sop Komplit 600 g Paket 47","NO MATCH",0.264
+424,"TaniHub Fresh Buah Naga Merah 1 kg Paket 48","NO MATCH",0.281
+425,"TaniHub Fresh Pisang Cavendish Matang 500 g Paket 49","NO MATCH",0.252
+426,"TaniHub Fresh Apel Fuji Grade A 500 g Paket 50","NO MATCH",0.264
+427,"TaniHub Fresh Jeruk Medan Segar 500 g Paket 51","NO MATCH",0.302
+428,"TaniHub Fresh Pepaya Potong Siap Santap 250 g Paket 52","NO MATCH",0.305
+429,"TaniHub Fresh Semangka Potong Siap Santap 250 g Paket 53","NO MATCH",0.324
+430,"TaniHub Fresh Wortel Segar 500 g Paket 54","NO MATCH",0.302
+431,"TaniHub Fresh Brokoli Segar 250 g Paket 55","NO MATCH",0.299
+432,"TaniHub Fresh Bayam Petik Segar 1 ikat Paket 56","NO MATCH",0.281
+433,"TaniHub Fresh Tomat Segar 500 g Paket 57","NO MATCH",0.289
+434,"TaniHub Fresh Kentang Granola 500 g Paket 58","NO MATCH",0.285
+435,"TaniHub Fresh Paket Sayur Sop Komplit 400 g Paket 59","NO MATCH",0.264
+436,"TaniHub Fresh Buah Naga Merah 500 g Paket 60","NO MATCH",0.278
+437,"TaniHub Fresh Pisang Cavendish Matang 1 kg Paket 61","NO MATCH",0.254
+438,"TaniHub Fresh Apel Fuji Grade A 1 kg Paket 62","NO MATCH",0.263
+439,"Cimory Yogurt Rasa Plain โย 200 ml","NO MATCH",0.448
+440,"Greenfields Fresh Milk Rasa Full Cream 250 ml","NO MATCH",0.346
+441,"Ultra Milk UHT Milk Full Cream 250 ml Paket 03","NO MATCH",0.446
+442,"Indomilk Susu Kental Manis Rasa Full Cream 370 g","NO MATCH",0.340
+443,"Kraft Keju Cheddar Rasa Original 165 g","NO MATCH",0.337
+444,"Prochiz Keju Slice Rasa Original 10 slices / 170 g","NO MATCH",0.316
+445,"Diamond Ice Cream Rasa Vanilla 90 ml","NO MATCH",0.325
+446,"Elle & Vire Butter Rasa Unsalted 100 g","NO MATCH",0.249
+447,"Greenfields Yogurt Drink Rasa Mango 250 ml","NO MATCH",0.333
+448,"Cimory Susu UHT Rasa Hazelnut 250 ml","NO MATCH",0.398
+449,"Cimory Yogurt Rasa Strawberry โย 200 ml","Cimory Yogurt Bites Strawberry.jpg",0.613
+450,"Greenfields Fresh Milk Rasa Low Fat 250 ml","NO MATCH",0.359
+451,"Ultra Milk UHT Milk Rasa Cokelat 250 ml","NO MATCH",0.417
+452,"Indomilk Susu Kental Manis Rasa Cokelat 370 g","NO MATCH",0.389
+453,"Kraft Keju Cheddar Rasa Original 180 g","NO MATCH",0.337
+454,"Prochiz Keju Slice Rasa Smoked 10 slices / 170 g","NO MATCH",0.326
+455,"Diamond Ice Cream Rasa Chocolate 90 ml","NO MATCH",0.338
+456,"Elle & Vire Butter Rasa Salted 100 g","NO MATCH",0.256
+457,"Greenfields Yogurt Drink Rasa Strawberry 250 ml","NO MATCH",0.436
+458,"Cimory Susu UHT Rasa Chocolate 250 ml","NO MATCH",0.407
+459,"Cimory Yogurt Rasa Blueberry โย 200 ml","Cimory Yogurt Bites Blueberry.jpg",0.608
+460,"Greenfields Fresh Milk Rasa Chocolate 250 ml","NO MATCH",0.476
+461,"Ultra Milk UHT Milk Rasa Taro 250 ml","NO MATCH",0.465
+462,"Indomilk Susu Kental Manis Rasa Full Cream 545 g","NO MATCH",0.340
+463,"Kraft Keju Cheddar Original 165 g Paket 25","NO MATCH",0.310
+464,"Prochiz Keju Slice Rasa Original 5 slices / 85 g","NO MATCH",0.323
+465,"Diamond Ice Cream Rasa Strawberry 90 ml","NO MATCH",0.407
+466,"Elle & Vire Butter Rasa Unsalted 200 g","NO MATCH",0.249
+467,"Greenfields Yogurt Drink Rasa Mango 500 ml","NO MATCH",0.333
+468,"Cimory Susu UHT Rasa Hazelnut 1 L","NO MATCH",0.413
+469,"Cimory Yogurt Rasa Plain 400 ml","NO MATCH",0.448
+470,"Greenfields Fresh Milk Rasa Full Cream 1 L","NO MATCH",0.357
+471,"Ultra Milk UHT Milk Rasa Full Cream 1 L","NO MATCH",0.500
+472,"Indomilk Susu Kental Manis Rasa Cokelat 545 g","NO MATCH",0.389
+473,"Kraft Keju Cheddar Original 180 g Paket 35","NO MATCH",0.310
+474,"Prochiz Keju Slice Rasa Smoked 5 slices / 85 g","NO MATCH",0.333
+475,"Diamond Ice Cream Rasa Vanilla 500 ml","NO MATCH",0.322
+476,"Elle & Vire Butter Rasa Salted 200 g","NO MATCH",0.255
+477,"Greenfields Yogurt Drink Rasa Strawberry 500 ml","NO MATCH",0.436
+478,"Cimory Susu UHT Rasa Chocolate 1 L","NO MATCH",0.422
+479,"Cimory Yogurt Rasa Strawberry 400 ml","Cimory Yogurt Squeeze Strawberry.jpg",0.601
+480,"Greenfields Fresh Milk Rasa Low Fat 1 L","NO MATCH",0.368
+481,"Ultra Milk UHT Milk Rasa Cokelat 1 L","NO MATCH",0.433
+482,"Indomilk Susu Kental Manis Full Cream 370 g Paket 44","NO MATCH",0.293
+483,"Kraft Keju Cheddar Original 165 g Paket 45","NO MATCH",0.310
+484,"Prochiz Keju Slice Original 10 slices / 170 g Paket 46","NO MATCH",0.243
+485,"Diamond Ice Cream Rasa Chocolate 500 ml","NO MATCH",0.334
+486,"Elle & Vire Butter Unsalted 100 g Paket 48","NO MATCH",0.238
+487,"Greenfields Yogurt Drink Mango 250 ml Paket 49","NO MATCH",0.329
+488,"Cimory Susu UHT Hazelnut 250 ml Paket 50","NO MATCH",0.373
+489,"Cimory Yogurt Rasa Blueberry 400 ml","Cimory Yogurt Squeeze Blueberry.jpg",0.595
+490,"Greenfields Fresh Milk Rasa Chocolate 1 L","NO MATCH",0.489
+491,"Ultra Milk UHT Milk Rasa Taro 1 L","NO MATCH",0.481
+492,"Indomilk Susu Kental Manis Cokelat 370 g Paket 54","NO MATCH",0.304
+493,"Kraft Keju Cheddar Original 180 g Paket 55","NO MATCH",0.310
+494,"Prochiz Keju Slice Smoked 10 slices / 170 g Paket 56","NO MATCH",0.246
+495,"Diamond Ice Cream Rasa Strawberry 500 ml","NO MATCH",0.403
+496,"Elle & Vire Butter Salted 100 g Paket 58","NO MATCH",0.273
+497,"Greenfields Yogurt Drink Strawberry 250 ml Paket 59","NO MATCH",0.406
+498,"Cimory Susu UHT Chocolate 250 ml Paket 60","NO MATCH",0.382
+499,"Cimory Yogurt Rasa Plain โย 200 ml · Paket 499","NO MATCH",0.409
+500,"Greenfields Fresh Milk Full Cream 250 ml Paket 62","NO MATCH",0.338
