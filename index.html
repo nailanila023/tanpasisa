@@ -563,7 +563,6 @@ async function rejectOrder(code){
  if(reason===null)return;if(!reason.trim()){toast('Alasan penolakan wajib diisi.');return}
  await changeOrderStatus(code,'Ditolak',reason.trim());
 }
-  }
 function adminCreateAccount(e){
  e.preventDefault();
  let name=document.getElementById('adminNewName').value,email=document.getElementById('adminNewEmail').value.trim().toLowerCase(),password=document.getElementById('adminNewPassword').value,role=document.getElementById('adminNewRole').value;
